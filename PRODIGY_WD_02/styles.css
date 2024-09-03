@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('d.watch.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(200, 92, 203, 0.9); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {    
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.stopwatch {
+    margin-bottom: 20px;
+}
+
+#time-display {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#start-pause-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+#reset-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+#lap-btn {
+    background-color: #ffc107;
+    color: white;
+}
+
+.controls button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.lap-times {
+    margin-top: 20px;
+}
+
+.lap-times h2 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#lap-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    color: #fff;
+}
+
+#lap-list li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
